@@ -1,0 +1,121 @@
+.first{
+    background-image: url('https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4wwtT?ver=b795');
+    text-align: center;
+    opacity: 0.999;
+    background-size: cover;
+    padding: 50px;
+    margin:auto;
+    font-size: 50px;
+    font-family: arial;
+    color: rgb(11, 14, 7);
+}
+.second{
+   padding: 50px;
+   background-color: #8ea8ee;
+   text-align: center;
+   font-size: 30px;
+   line-height: 1.3;
+}
+.menu{
+    background-color: rgb(64, 107, 107);
+    margin-bottom: 1px;
+    font-size: 30px;
+
+    
+}
+ul{
+    list-style-type:none;
+    margin:0; 
+    padding:0;
+    overflow: hidden;
+    background-color: #242320;
+
+}
+
+li a{
+    display: block;
+    float:left;
+    color: #ebe3e3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+li a:hover{
+    background-color: rgb(22, 32, 32);
+}
+.active{
+    background-color: rgb(40, 145, 47);
+}
+li.dropdown{
+    display: inline-block;
+
+
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:#242320;
+    min-width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown-content a{
+    color: #f7f7f5;
+    padding:12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-bottom: 1px solid rgb(65, 153, 65);
+
+}
+.dropdown-content a:hover{
+    background-color: #30b868;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.right{
+
+    background-color:rgb(111, 105, 175);
+    width: 40%;
+    float: right;
+    padding: 50px;
+    overflow: hidden;
+    line-height: 1.3;
+    font-size: 30px;
+
+}
+.left{
+    padding: 50px;
+    width: 40%;
+    background-color:rgb(111, 105, 175);
+    line-height: 1.3;
+    font-size: 30px;
+    float: left;
+}
+.middle{
+    padding: 50px;
+    background-color:rgb(111, 105, 175);
+    width:20%;
+    margin:0 auto;
+    font-size: 170px;
+ 
+}
+.des{
+    font-family: arial;
+    font-size: 25px;
+    background-color: #ccd1e0;
+    padding: 50px;
+}
+@media only screen and (max-width:300px){
+        .all{
+            width:100px;
+        }
+}
+@media only screen and (max-width:1000px){
+    .all{
+        width:300px;
+    }
+}

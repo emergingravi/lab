@@ -1,0 +1,25 @@
+
+.first{
+    text-align: center;
+    margin:auto;
+    width:50%;
+    opacity: .87777777;
+}
+.second{
+    background: #000000de;
+    text-align: center;
+    margin:auto;
+    width:50%;
+    color:rgb(216, 219, 223);
+    font-family:arial;
+
+
+}
+.main{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid rgb(119, 127, 233);
+    background-color: #dacdcd;
+    overflow: auto;
+    width: 50%;
+    margin: auto;
+}
